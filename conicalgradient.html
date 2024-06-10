@@ -1,0 +1,44 @@
+<html>
+<head>
+<style>
+#grad1 {
+  height: 200px;
+  width: 200px;
+  background-color: red; /* For browsers that do not support gradients */
+  background-image: conic-gradient(red, yellow, green);
+}
+#grad2 {
+  height: 200px;
+  width: 200px;
+  background-color: red; /* For browsers that do not support gradients */
+  background-image: conic-gradient(from 90deg, red, yellow, green);
+  border-radius: 50%;
+}
+#grad3 {
+  height: 200px;
+  width: 200px;
+  background-color: red; /* For browsers that do not support gradients */
+  background-image: repeating-conic-gradient(red 10%, yellow 20%);
+  border-radius: 50%;
+}
+#grad4 {
+  height: 200px;
+  width: 200px;
+  background-color: red; /* For browsers that do not support gradients */
+  background-image: repeating-conic-gradient(red 0deg 10deg, yellow 10deg 20deg, blue 20deg 30deg);
+  border-radius: 50%;
+}
+
+</style>
+</head>
+<body>
+
+<h1>Conic Gradient - Three Colors</h1>
+
+<div id="grad1"></div>
+<div id="grad2"></div>
+<div id="grad3"></div>
+<div id="grad4"></div>
+
+</body>
+</html>
